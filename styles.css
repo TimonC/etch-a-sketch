@@ -1,7 +1,9 @@
 body{
     display: flex;
+    flex-direction:column;
     justify-content:center;
     align-items:center;
+    gap: 4em;
     height:100vh;
 }
 #grid{
@@ -11,6 +13,12 @@ body{
     height: 64em;
 }
 
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    width: 9em;
+    height: 3em;
+}
 .square{
     width: calc(100%/16);
     aspect-ratio: 1/1;
