@@ -1,14 +1,16 @@
+
 const body = document.querySelector('body');
+let grid = document.createElement('div');
+grid.classList.add('grid');
+grid.id='grid';
+body.append(grid)
+
 let button = document.createElement('button');
 button.addEventListener('click', refreshGrid);
 button.textContent = 'New grid'
 button.id = 'size-button';
 body.append(button);
 
-let grid = document.createElement('div');
-grid.classList.add('grid');
-grid.id='grid';
-body.append(grid)
 fillGrid();
 function fillGrid(n=16){
     let grid = document.querySelector('#grid');
