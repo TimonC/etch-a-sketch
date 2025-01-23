@@ -4,7 +4,7 @@ body{
     justify-content:center;
     align-items:center;
     gap: 4em;
-    height:90vh;
+    height:80vh;
 }
 .grid{
     display: flex;
