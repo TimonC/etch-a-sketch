@@ -1,33 +1,36 @@
 body{
     display: flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 4em;
-    height:90vh;
-}
-.grid{
-    display: flex;
-    flex-wrap: wrap;
-    border:1em solid black;
-    border-radius: 1em;
-    aspect-ratio: 1;
-    width: 40%;
-    gap:0;
-    padding:0;
-    margin:0;
+    height: 90vh;
 }
 
-button{
-    color:white;
-    background-color:black;
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1em solid black;
+    border-radius: 15px;
+    aspect-ratio: 1; /* Ensures a square aspect ratio */
+    width: 80%; /* You can adjust this width to fit your design */
+    max-width: 40em; /* Set a max width */
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    color: white;
+    background-color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
     width: 9em;
     height: 3em;
 }
-.square{
-    width: calc(100%/16);
-    height: calc(100%/16);
+
+.square {
+    width: calc(100% / 16);
+    height: calc(100% / 16);
     opacity: var(--square_opacity, 0)
 }
