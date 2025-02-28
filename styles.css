@@ -11,8 +11,9 @@ body{
     flex-wrap: wrap;
     border:1em solid black;
     border-radius: 15px;
-    width: 4;
+    width: 4em;
     height: 4em;
+    max-width:4em;
     gap:0;
     padding:0;
     margin:0;
