@@ -11,10 +11,10 @@ body{
     display: flex;
     flex-wrap: wrap;
     border: 1em solid black;
-    border-radius: 15px;
-    aspect-ratio: 1; /* Ensures a square aspect ratio */
-    width: 80%; /* You can adjust this width to fit your design */
-    max-width: 40em; /* Set a max width */
+    border-radius: 1em;
+    aspect-ratio: 1;
+    width: 40%;
+    max-width: 40em;
     gap: 0;
     padding: 0;
     margin: 0;
